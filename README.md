@@ -29,3 +29,13 @@ programatically:
 
     Also in this file is the correct way to expire a request (expire_request)
     function, which also deleted the $req_id_nla_request.json file
+
+INSTALLATION
+------------
+This software requires Python 3.7+
+
+The nla_client library has to be installed from:
+https://github.com/cedadev/nla_client.git
+
+This can be installed via pip using the command:
+pip install git+https://github.com/cedadev/nla_client.git#egg=nla-client
